@@ -52,6 +52,7 @@ a,
 }
 
 .block1 .left{
+    width: 100%;
     max-width: 500px;
 }
 
@@ -122,6 +123,8 @@ img{
 .block3 .review{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    max-width: 500px;
 }
 
 .review p{
@@ -156,6 +159,7 @@ img{
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
+    flex-wrap: wrap;
 }
 
 .bluebox .sign-up2{
