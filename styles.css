@@ -2,7 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+    height: 100vh;
     margin: 0;
     font-family: 'Roboto', Courier, monospace;
 }
@@ -20,6 +20,7 @@ body *{
 .header{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 
@@ -31,6 +32,7 @@ body *{
 
 .header .right{
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
@@ -46,10 +48,11 @@ a,
     flex-grow: 1;
     justify-content: center;
     color: #f9faf8;
+    flex-wrap: wrap;
 }
 
 .block1 .left{
-    width: 500px;
+    max-width: 500px;
 }
 
 .block1 .title{
@@ -69,7 +72,8 @@ a,
 
 .block1 img{
     height: auto;
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     border-radius: 35px;
 }
 
@@ -88,6 +92,8 @@ a,
 
 .block2 .images{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .block2 p{
@@ -97,8 +103,10 @@ a,
 }
 
 img{
-    width: 300px;
-    height: 400px;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    max-height: 400px;
     object-fit: cover;
     border-radius: 20px;
 }
@@ -114,7 +122,6 @@ img{
 .block3 .review{
     display: flex;
     flex-direction: column;
-    width: 600px;
 }
 
 .review p{
@@ -141,7 +148,8 @@ img{
 }
 
 .block4 .bluebox{
-    width: 800px;
+    max-width: 800px;
+    width: 100%;
     display: flex;
     background-color: #3882f6;
     border-radius: 20px;
