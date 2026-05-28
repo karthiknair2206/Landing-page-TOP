@@ -4,7 +4,7 @@ body{
     justify-content: space-between;
     height: 100vh;
     margin: 0;
-    font-family: 'Roboto', Courier, monospace;
+    font-family: 'Roboto', Arial, Courier, monospace;
 }
 
 body *{
